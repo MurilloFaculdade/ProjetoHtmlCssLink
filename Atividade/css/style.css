@@ -1,0 +1,56 @@
+body {
+    font-family: monospace;
+    padding: 15px;
+    background-color: rgb(248, 230, 197);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.carros {
+    margin: 0 15px; 
+    text-align: center;
+}
+
+.carros a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(197, 243, 69);
+    border-radius: 50px;
+
+}
+
+.carros a:hover{
+    background-color: beige;
+}
+h1{
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+}
+
+img{
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-container img{
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
+}
+p{
+    text-align: center;
+}
